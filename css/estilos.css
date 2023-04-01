@@ -1,0 +1,79 @@
+header
+{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100% ;
+}
+
+
+body
+{
+    background:#f4eff5
+}
+
+.banner 
+{
+    height: 45%;
+    background: url("../img/FondoBienvenidaMensaje.png") no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment:fixed;
+    margin-top:0%
+}
+
+.Arriba
+{
+    background-color: #132e5a; 
+    height: 20%; 
+}
+
+footer
+{
+    background-color: #000000; 
+    width: 100% ;
+    height: auto
+    font-size: 15px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.contenido
+{
+    margin: 3px;
+}
+
+.caja
+{
+    display: table-cell;
+    padding: 10px;
+}
+
+.caja:nth-child(1) h1
+{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.caja:nth-child(2) h1
+{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+@media(min-width:1024px)
+{
+    .contenido
+    {
+        width: 1000px;
+        margin: auto;
+    }
+    .caja p
+    {
+        line-height: 25px;
+    }
+

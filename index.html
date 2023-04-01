@@ -1,0 +1,361 @@
+<!-- Proyecto para CoderHouse de BooksDigitales hecho por Maximiliano Muñiz
+-->
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BooksDigitales</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet"  href="css/estilos.css">
+    <link rel="stylesheet"  href="css/bootstrap-grid.min.css ">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+
+</head>
+  <body>
+    <header>   
+<!-- Menu
+-->           
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">BooksDigitales</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      📚
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Arte</a></li>
+                      <li><a class="dropdown-item" href="#">Biografías, Literaturas Y Estudios Literarios</a></li>
+                      <li><a class="dropdown-item" href="#">Ciencias De La Tierra Y Medioambiente</a></li>
+                      <li><a class="dropdown-item" href="#">Ciencias Económicas Sobre Finanzas, Empresa Y Gestión</a></li>
+                      <li><a class="dropdown-item" href="#">Computación Y Tecnología De La Información</a></li>
+                      <li><a class="dropdown-item" href="#">Deportes Y Actividades De Ocio Al Aire Libre</a></li>
+                      <li><a class="dropdown-item" href="#">Estilos De Vida, Aficiones Y Ocio</a></li>
+                      <li><a class="dropdown-item" href="#">Ficción</a></li>
+                      <li><a class="dropdown-item" href="#">Filosofía Y Religión</a></li>
+                      <li><a class="dropdown-item" href="#">Historia Y Arqueología</a></li>
+                      <li><a class="dropdown-item" href="#">Infantiles, Juveniles Y Didácticos</a></li>
+                      <li><a class="dropdown-item" href="#">Medicina, Enfermería Y Veterinaria</a></li>
+                      <li><a class="dropdown-item" href="#">Novelas Gráficas</a></li>
+                      <li><a class="dropdown-item" href="#">Salud, Relaciones Y Desarrollo Personal</a></li>
+                      <li><a class="dropdown-item" href="#">Sociedad Y Ciencias Sociales</a></li>
+                      <li><a class="dropdown-item" href="#">Tecnología, Ingeniería, Agricultura, Procesos Industriales</a></li>
+
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="html/Noticias.html">Noticias</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="html/Hot Sale.html">Hot Sale</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="html/Audiolibros.html">Audiolibros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="html/Privacidad.html">Politicas Privacidad</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Usuario
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="html/Usuario.html">Iniciar Sesion</a></li>
+                      <li><a class="dropdown-item" href="#">Registrarse</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Ayuda</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Publicar</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">🔍</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+ <!-- Presentacion
+-->    
+    
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/3.jpg" class="d-block w-100" alt="...">
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+<!-- Contenido
+--> 
+        <div class="container">
+            <div class="row">
+            <div class="col-md-12">
+                <h3 class="fw-bold mb-4">Los más vendidos de la semana</h3>
+                <hr>
+            </div>
+            </div>
+        </div>
+
+        <div class="contenido">
+            <div class="caja">
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/librotop01.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">HABITOS ATOMICOS</h5>
+                      <p class="card-text">Amenudo pensamos que para cambiar de vida tenemos que pensar en hacer cambios grandes. Nada más lejos de la realidad. Según el reconocido experto en hábitos James Clear, el cambio real proviene del resultado de cientos de pequeñas decisiones: hacer dos flexiones al día, levantarse cinco minutos antes o hacer una corta llamada telefónica</p>
+                      <a href="https://amzn.to/41UOSsA" class="btn btn-primary">Vista Previa</a>
+                      <a href="https://amzn.to/41UOSsA" class="btn btn-primary">Comprar</a>
+                    </div>
+                  </div>
+            </div>
+                  
+            <div class="caja">
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/librotop02.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">PIENSE Y HAGASE RICO</h5>
+                      <p class="card-text">Un clásico para alcanzar la riqueza Tras más de veinte años investigando científicamente a los hombres más ricos de su época, Napoleon Hill aprendió el secreto de la riqueza del famoso industrial y escritor Andrew Carnegie. Carnegie no sólo llegó a ser multimillonario sino que hizo millonarios a una multitud de personas a las que enseñó su sabiduría. Piense y hágase rico es una obra diseñada a partir de una experiencia para conseguir el triunfo económico y personal de la humanidad entera. Gracias a este libro, la riqueza y la realización personal están al alcance de todas aquellas personas que lo deseen. No dejes el éxito en manos de unos pocos y lucha por tu trozo de pastel.</p>
+                      <a href="https://www.economicas.unsa.edu.ar/afinan/informacion_general/book/piense_y_hagase_rico.pdf" class="btn btn-primary">Vista Previa</a>
+                      <a href="https://amzn.to/3L6I5WC" class="btn btn-primary">Comprar</a>
+                    </div>
+                  </div>
+            </div>
+           
+            <div class="caja">
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/librotop03.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">COMO HACER QUE TE PASEN COSAS BUENAS</h5>
+                      <p class="card-text">Uniendo el punto de vista científico, psicológico y humano, la autora nos ofrece una reflexión profunda, salpicada de útiles consejos y con vocación eminentemente didáctica, acerca de la aplicación de nuestras propias capacidades al empeño de procurarnos una existencia plena y feliz: conocer y optimizar determinadas zonas del cerebro, fijar metas y objetivos en la vida, ejercitar la voluntad, poner en marcha la inteligencia emocional, desarrollar la asertividad, evitar el exceso de autocrítica y autoexigencia, reivindicar el papel del optimismo…</p>
+                      <a href="https://apainmaculada.com/wp-content/uploads/2020/04/Como-hacer-para-que-te-pasen-cosas-buenas.pdf" class="btn btn-primary">Vista Previa</a>
+                      <a href="https://amzn.to/3mzb8YI" class="btn btn-primary">Comprar</a>
+                    </div>
+                  </div>
+            </div>
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                  <li class="page-item disabled">
+                    <a class="page-link">Previous</a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                  </li>
+                </ul>
+              </nav>
+    <hr>
+    <img src="./img/banner2.jpg" class="img-fluid" alt="...">
+    <hr>
+    <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h3 class="fw-bold mb-4">Ultimos Ingresos:</h3>
+            <hr>
+          </div>
+        </div>
+      </div>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="./img/librofav01.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                <h5>Descifrando el código Keto</h5>
+                <p>En el curso de sus investigaciones, el doctor Steven Gundry, autor de varios best sellers sobre nutrición, descubrió la razón del éxito relativo de las dietas keto o cetogénicas: las cetonas no son una fuente de combustible «mágica», como se creía, sino que su gran propiedad es que fomentan el desacoplamiento mitocondrial, el cual había que poner en el centro de la ecuación. Gundry elaboró una propuesta alimentaria a partir de ahí, que ha tenido un gran éxito entre sus pacientes y reúne ahora en este volumen. Se trata del programa Código Keto, que aporta equilibrio y flexibilidad al enfoque keto tradicional.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./img/librofav02.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                <h5>Los Simpson y la filosofía</h5>
+                <p>Los Simpson y la filosofía no solo es un análisis sobre la filosofía en el último gran artefacto cultural, sino también una introducción divertida pero rigurosísima a la obra de pensadores como Aristóteles, Kant, Heidegger o Sartre, entre muchos otros.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/librofav03.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                <h5>Incontinencia del vacío</h5>
+                <p>Sagaz, provocador y ambicioso como acostumbra, Žižek explora en este libro los intersticios entre campos del saber, el vacío entre la filosofía, el psicoanálisis y la crítica de la política económica. El título está tomado de una de las obras tardías de Samuel Beckett, y le sirve al autor para indagar en las conexiones entre la sexualidad y la economía con los instrumentos del marxismo y el psicoanálisis lacaniano.</p>
+                </div>
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    <hr>
+    <img src="./img/banner3.jpg" class="img-fluid" alt="...">
+    <hr>
+    <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="fw-bold mb-4">El recomendado del dia:</h2>
+            <hr>
+          </div>
+        </div>
+    <figure>
+        <blockquote class="blockquote">
+          <p>“Los incomprendidos “ – Pedro Simón.</p>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+            martes, 28 de marzo <cite title="Source Title">2023</cite>
+        </figcaption>
+      </figure>
+    <div class="clearfix">
+        <img src="img/librorecomendado.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">      
+        <p>
+            Había leído comentarios realmente elogiosos de este libro y del anterior del autor (“Los ingratos”). Es por eso que me decidí a leerlo y qué bien hice: me ha encantado; de hecho, ha sido mi primer cinco estrellas del año.
+            Éstas son mis impresiones        
+        </p>
+        <h4> Sinopsis </h4>
+        <p>
+            Javier y Celia son un matrimonio de clase media con un hijo pequeño y una hija preadolescente. Él trabaja en una editorial y ella en un hospital; él arregla vidas de mentira y ella arregla vidas de verdad. Tratan de prosperar, se mudan a un barrio mejor, la cotidianidad. Podría ser la historia de muchos. Hasta que tiene lugar una excursión a Pirineos que lo cambia absolutamente todo.
+        </p>
+        <p>
+            Esta es la historia de un viaje al abismo que habla de otros muchos viajes. El viaje de la infancia a la convulsa adolescencia. El que va de la algarabía infantil al silencio más sepulcral. El de los padres que caminan detrás con su culpa y llegan tarde. El de los abuelos que fueron delante y a los que nadie escucha. El que hace alguien para salvar una vida. También es la historia de ese otro viaje al que todos tenemos miedo: el que habla de nuestro pasado más oscuro y secreto.
+        </p>
+        <p>
+            Los incomprendidos es una novela sobre la soledad familiar, la incomunicación entre padres e hijos, el horror de decir, pero también, y desde la primera página, sobre la esperanza.
+        </p>
+        <h4> Impresiones </h4>
+        <p>
+            Javier, Celia y sus dos hijos Inés y Roberto forman una familia normal. Él tiene una pequeña editorial. Ella es neumóloga en un hospital. Inés es una niña que está entrando en la adolescencia pues tiene trece años. Roberto tiene ocho y es un niño tranquilo y feliz que no da ningún problema
+        </p>
+        <p>
+            Su vida transcurre de forma normal, como la de cualquier familia. Hasta que en un corto viaje a Pirineos ocurre algo que lo cambia todo.
+        </p>
+        <h4> Conclusión final </h4>
+        <p>
+            “Los incomprendidos” es una auténtica maravilla. Una novela preciosa llena de sentimientos que te pondrá el corazón en un puño. Una novela escrita de una forma bellísima que recibe las cinco estrellas y porque no puedo darle más. Sin duda, estará entre mis mejores lecturas del año.
+        </p>
+      </div>
+      <hr>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="fw-bold mb-4">Los más vendidos de la semana</h2>
+            <hr>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <table class="table">
+              <tbody>
+                <tr>
+                  <td><img src="img/9788425432026.png" class="img-fluid"></td>
+                  <td><img src="img/9788433998064.png" class="img-fluid"></td>
+                  <td><img src="img/9788484456810.png" class="img-fluid"></td>
+                  <td><img src="img/9789500212502.png" class="img-fluid"></td>
+                  <td><img src="img/9789500766647.png" class="img-fluid"></td>
+                  <td><img src="img/9789500768436.png" class="img-fluid"></td>
+                  <td><img src="img/9789501298321.png" class="img-fluid"></td>
+                </tr>
+                <tr>
+                  <td><img src="img/9789504976677.png" class="img-fluid"></td>
+                  <td><img src="img/9789504976677.png" class="img-fluid"></td>
+                  <td><img src="img/9789504978169.png" class="img-fluid"></td>
+                  <td><img src="img/9789504979395.png" class="img-fluid"></td>
+                  <td><img src="img/9789504980506.png" class="img-fluid"></td>
+                  <td><img src="img/9789504981015.png" class="img-fluid"></td>
+                  <td><img src="img/9789506446567.png" class="img-fluid"></td>
+                </tr>
+                <tr>
+                  <td><img src="img/9789507880223.png" class="img-fluid"></td>
+                  <td><img src="img/9789507883569.png" class="img-fluid"></td>
+                  <td><img src="img/9789873881602.png" class="img-fluid"></td>
+                  <td><img src="img/9789874892508.png" class="img-fluid"></td>
+                  <td><img src="img/9789875665613.png" class="img-fluid"></td>
+                  <td><img src="img/9789876707510.png" class="img-fluid"></td>
+                  <td><img src="img/9789877370942.png" class="img-fluid"></td>
+                </tr>
+                <tr>
+                  <td><img src="img/9789877389753.png" class="img-fluid"></td>
+                  <td><img src="img/9789877801750.png" class="img-fluid"></td>
+                  <td><img src="img/9789877950465.png" class="img-fluid"></td>
+                  <td><img src="img/9789878151335.png" class="img-fluid"></td>
+                  <td><img src="img/9789877254990.png" class="img-fluid"></td>
+                  <td><img src="img/9789878203447.png" class="img-fluid"></td>
+                  <td><img src="img/9789878220079.png" class="img-fluid"></td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    <hr>
+
+    <a href="index.html" class="position-fixed bottom-0 end-0 p-3" style="z-index: 1030">
+        <i class="bi bi-arrow-up-circle-fill text-primary" style="font-size: 3rem;"></i>
+      </a>
+      
+<!-- Footer
+--> 
+        <footer>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <p class="text-center">
+                    Sitio de Maximiliano Muñiz para CoderHouse - Todos los Derechos Reservados 2023
+                  </p>
+                  <div class="text-center">
+                    <a href="https://www.instagram.com/"><i class="fab fa-instagram fa-lg mr-4"></i></a>
+                    <a href="https://www.facebook.com/"><i class="fab fa-facebook fa-lg mr-4"></i></a>
+                    <a href="https://www.youtube.com/"><i class="fab fa-youtube fa-lg"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>      
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.6.1/font/bootstrap-icons.min.css" integrity="sha512-E+lJcP6o4lVTaSf+0go0mE2jDm5z6CTQyxF97M57jrlhJUS0BZ6KN+gHP9LSDOjK1ctiqYAJTtT+ApyYYyMWsw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      
+</body>
+</html>

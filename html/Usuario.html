@@ -1,0 +1,143 @@
+<!-- Proyecto para CoderHouse de BooksDigitales hecho por Maximiliano Muñiz
+-->
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BooksDigitales</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet"  href="../css/estilos.css">
+    <link rel="stylesheet"  href="../css/bootstrap-grid.min.css ">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+
+</head>
+  <body>
+    <header>   
+<!-- Menu
+-->           
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">BooksDigitales</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">📚</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Noticias.html">Noticias</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Hot Sale.html">Hot Sale</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Audiolibros.html">Audiolibros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Privacidad.html">Politicas Privacidad</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Usuario
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="Usuario.html">Iniciar Sesion</a></li>
+                      <li><a class="dropdown-item" href="#">Registrarse</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Ayuda</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Publicar</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">🔍</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+<body>
+
+<hr>
+<!-- Formulario Registro
+--> 
+<div class="container">
+    <form class="row g-3">
+      <div class="col-md-6">
+        <label for="inputEmail4" class="form-label">Email</label>
+        <input type="email" class="form-control" id="inputEmail4">
+      </div>
+      <div class="col-md-6">
+        <label for="inputPassword4" class="form-label">Password</label>
+        <input type="password" class="form-control" id="inputPassword4">
+      </div>
+      <div class="col-12">
+        <label for="inputAddress" class="form-label">Address</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+      </div>
+      <div class="col-12">
+        <label for="inputAddress2" class="form-label">Address 2</label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+      </div>
+      <div class="col-md-6">
+        <label for="inputCity" class="form-label">City</label>
+        <input type="text" class="form-control" id="inputCity">
+      </div>
+      <div class="col-md-4">
+        <label for="inputState" class="form-label">State</label>
+        <select id="inputState" class="form-select">
+          <option selected>Choose...</option>
+          <option>...</option>
+        </select>
+      </div>
+      <div class="col-md-2">
+        <label for="inputZip" class="form-label">Zip</label>
+        <input type="text" class="form-control" id="inputZip">
+      </div>
+      <div class="col-12">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            Check me out
+          </label>
+        </div>
+      </div>
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">Sign in</button>
+      </div>
+    </form>
+  </div>
+      
+<!-- Footer
+--> 
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <p class="text-center">
+          Sitio de Maximiliano Muñiz para CoderHouse - Todos los Derechos Reservados 2023
+        </p>
+        <div class="text-center">
+          <a href="https://www.instagram.com/"><i class="fab fa-instagram fa-lg mr-4"></i></a>
+          <a href="https://www.facebook.com/"><i class="fab fa-facebook fa-lg mr-4"></i></a>
+          <a href="https://www.youtube.com/"><i class="fab fa-youtube fa-lg"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>      
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.6.1/font/bootstrap-icons.min.css" integrity="sha512-E+lJcP6o4lVTaSf+0go0mE2jDm5z6CTQyxF97M57jrlhJUS0BZ6KN+gHP9LSDOjK1ctiqYAJTtT+ApyYYyMWsw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</body>
+</html>
