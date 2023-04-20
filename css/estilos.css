@@ -18,7 +18,27 @@ body
     background-position:center;
     background-attachment:fixed;
     margin-top:0%
+    
 }
+
+.animated-line {
+    height: 8px;
+    width: 100%;
+    background: linear-gradient(to right, #ff7eb9, #ff65a3, #c358a1, #5f3f7a, #b874c9, #c358a1,#ff7eb9);
+    background-size: 500% 100%;
+    animation: animatedLine 6s ease-in-out infinite;
+  }
+  
+  @keyframes animatedLine {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 100% 0;
+    }
+  }
+ 
+  
 
 .Arriba
 {
